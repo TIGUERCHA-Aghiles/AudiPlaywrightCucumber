@@ -1,4 +1,4 @@
-const {Before, After, Given, When, Then, And, AfterAll} = require('@cucumber/cucumber');
+const {Before, After, Given, When, Then, AfterAll} = require('@cucumber/cucumber');
 const CliquerSur = require('../../support/commun/action/cliquerSur');
 const CliquerSurIframe = require('../../support/commun/action/cliquerSurIframe');
 const SaisirTexte = require('../../support/commun/action/saisirTexte');
@@ -8,14 +8,6 @@ const CliquerSurSelecteurIframe = require('../../support/commun/action/cliquerSu
 const SelectionnerCurseur = require('../../support/commun/action/selectionnerCurseur');
 const TaperTouche = require('../../support/commun/action/taperTouche');
 const Cocher = require('../../support/commun/action/cocher');
-//const ChangerOnglet = require('../../support/commun/navigation/changerOnglet');
-//const AccederIframe = require('../../support/commun/navigation/accederIframe');
-//const AttendreSecondes = require('../../support/commun/navigation/attendreSecondes');
-//const VerifierTexteElement = require('../../support/commun/verification/verifierTexteElement');
-//const VerifierElementVisible = require('../../support/commun/verification/verifierElementVisible');
-//const VerifierCouleurTexte = require('../../support/commun/verification/verifierCouleurTexte');
-//const VerifierTitrePage = require('../../support/commun/verification/verifierTitrePage');
-//const DefilerJusquaElement = require('../../support/commun/action/defilerJusquaElement');
 
 
 //const AccederSite = require('../../support/commun/navigation/accederSite');
@@ -88,53 +80,3 @@ Given(/^Je coche la case "(.*)"$/,async (locateur) =>  {
 Given(/^Je coche la case "(.*)" dans l'iframe$/,async (locateur) =>  {
     await Cocher(iframe, locateur)
 });
-
-/*Given(/^Je vais sur l'onglet "(.*)"$/, {timeout: 25000}, async (numOnglet) =>  {
-    page = await ChangerOnglet(page, numOnglet)
-});
-
-Given(/^Je bascule vers l'iframe "(.*)"$/, {timeout: 25000}, async (iframeLocator) =>  {
-    iframe = await AccederIframe(page, iframeLocator);
-});
-
-Given(/^J'attend "(.*)" secondes$/, {timeout: 25000}, async (secondesAAttendre) => {
-    await AttendreSecondes(page, secondesAAttendre)
-})*/
-
-/*Given(/^Je fais defiler jusqu'a l'element "(.*)"$/, async (locateur) => {
-    await DefilerJusquaElement(page, locateur);
-});
-
-Given(/^Je fais defiler jusqu'a l'element "(.*)" dans l'iframe$/, async (locateur) => {
-    await DefilerJusquaElement(iframe, locateur);
-}); */
-
-/*Given( /^Je verifie que "(.*)" affiche le texte "(.*)"$/, {timeout: 25000}, async (locateur, texteAffiche) =>  {
-    await VerifierTexteElement(page, locateur, texteAffiche);
-});
-
-Given( /^Je verifie que "(.*)" affiche le texte "(.*)" dans l'iframe$/, {timeout: 25000}, async (locateur, texteAffiche) =>  {
-    await VerifierTexteElement(iframe, locateur, texteAffiche);
-});
-
-Given(/^Je verifie que l'element "(.*)" est affiche$/, {timeout: 25000}, async (locateur) => {
-    await VerifierElementVisible(page, locateur);
-});
-
-Given(/^Je verifie que l'element "(.*)" est affiche dans l'iframe$/, {timeout: 25000}, async (locateur) => {
-    await VerifierElementVisible(iframe, locateur);
-});
-
-Given(/^Je verifie que le texte "(.*)" est de couleur "(.*)"$/, {timeout: 25000}, async (locateur, couleur) => {
-    await VerifierCouleurTexte(page, locateur, couleur);
-});
-
-Given(/^Je verifie que le texte "(.*)" est de couleur "(.*)" dans l'iframe$/, {timeout: 25000}, async (locateur, couleur) => {
-    await VerifierCouleurTexte(iframe, locateur, couleur);
-});
-
-Given(/^Je verifie que le titre de l'onglet est "(.*)"$/, {timeout: 25000}, async (titre) => {
-    await VerifierTitrePage(page, titre);
-});*/
-
-// commentaire/node_modules/
