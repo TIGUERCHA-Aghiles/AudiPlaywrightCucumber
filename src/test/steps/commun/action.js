@@ -137,16 +137,4 @@ Given(/^Je verifie que le titre de l'onglet est "(.*)"$/, {timeout: 25000}, asyn
     await VerifierTitrePage(page, titre);
 });*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// commentaire/node_modules/
