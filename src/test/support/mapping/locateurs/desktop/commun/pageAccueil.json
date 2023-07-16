@@ -1,0 +1,35 @@
+{
+    "PAGE": "Page d'accueil",
+    
+    "Header": "---------------------------------------------------------------------------------------------------------------",
+    "Header - Menu - Page d'accueil": "//div[contains(@class,'AudiHeaderMenuButton__StyledMenuButtonIconBottomLine-sc-1o5s5j3-5 jriveE')]",
+    "Header - Modeles - Page d'accueil": "(//span[contains(.,'Modèles')])[1]",
+    "Header - Tous les modeles - Page d'accueil": "//a[@tabindex='0'][contains(.,'Tous les modèles')]",
+    "Header - Pour les professionnels - Page d'accueil": "//a[@href='https://www.audi.fr/fr/web/fr/fleet/modeles-business.html']",
+    "Header - Champ recherche - Page d'accueil": "//input[@id='search__basic']",
+    "Header - Audi Q3 Sportback - Page d'accueil": "(//span[contains(.,'Audi Q3 Sportback')])[2]",
+    "Header - Logo Recherche - Page d'accueil": "//button[contains(@aria-label,'Rechercher')]",
+    "Header - Lien Achat et Location - Page d'accueil": "(//span[contains(.,'Achat et location')])[1]",
+    "Header - Lien Offres du moment - Page d'accueil": "//a[contains(@aria-label,'Offres du moment')]",
+    "Header - Lien Audi rent : location courte duree - Page d'accueil": "//a[@aria-label='Audi rent : location courte durée']",
+    "Header - Lien Votre Audi - Page d'accueil": "(//span[contains(.,'Votre Audi')])[1]",
+    "Header - Lien Entretenir et réparer mon Audi - Page d'accueil": "//a[@aria-label='Entretenir et réparer mon Audi']",
+    "Header - Lien Espace Personnel myAudi - Page d'accueil": "//a[@aria-label='Espace personnel myAudi']",
+    "Header - Lien offre choisi dans recherche - Page d'accueil": "(//span[contains(.,'Audi Q3 Sportback')])[2]",
+    "Header - Information importante - Page d'accueil": "body > modal-layer-wrapper > div.modal-layer__content.modal-layer__content--show.nm-module-interstitial-layer > modal-layer-interstitial-element > div > div.modal-layer__inner-content > div > div.nm-layer-content.clearfix > div.nm-3col.clearfix > div > a",
+  
+    "Page": "---------------------------------------------------------------------------------------------------------------",
+    "Page - Cookies - Page d'accueil": "//button[@id='ensCancel']",
+    "Page - Bouton Decouvrir Audi Q4 e-tron - Page d'accueil": "//a[contains(.,'Découvrir l’Audi Q4 e-tron')]",
+    "Page - Bouton Choix Modèles Véhicules Disponibles - Page d'accueil": "(//label[contains(@class,'label')])[1]",
+    "Page - Bouton Choix Modèle Q8 e-tron Disponible - Page d'accueil": "//span[@class='audi-link-m__text'][normalize-space(.)='Q8 e-tron']",
+    "Page - Bouton Choix Modèle A3 Sportback Disponible - Page d'accueil": "//span[@class='audi-link-m__text'][normalize-space(.)='A3 Sportback']",
+    "Page - Bouton Choix Modèle Q8 Sportback e-tron Disponible - Page d'accueil": "//span[@class='audi-link-m__text'][normalize-space(.)='Q8 Sportback e-tron']",
+    "Page - Lien Vehicules Neufs Disponibles - Page d'accueil": "//div[@class='nm-vtp__link-container nm-vtp--active']//a[1]",
+    "Page - Véhicules neufs - Page d'accueil": "(//span[contains(@class,'text')])[72]",
+
+    "Footer": "--------------------------------------------------------------------------------------------------------------",
+    "Footer - Lien Garanties Audi - Page d'accueil": "(//a[text()='Garanties Audi'])[2]",
+    "Footer - Heycar - Page d'accueil": "//a[@href='https://heycar.fr/voiture-occasion/audi'][contains(.,'Heycar')]"
+}
+

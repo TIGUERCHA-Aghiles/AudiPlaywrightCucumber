@@ -1,0 +1,21 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Execution": "---------------------------------------------------------------------------------------------",
+    "test": "cucumber-js test",
+    "Reporting": "---------------------------------------------------------------------------------------------",
+    "report" : "node reporting/config/report.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.2.0",
+    "@playwright/test": "^1.35.1",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  }
+}

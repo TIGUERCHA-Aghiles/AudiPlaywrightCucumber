@@ -1,0 +1,17 @@
+{
+    "PAGE": "Espace Rappele",
+    
+    "Header": "---------------------------------------------------------------------------------------------------------------",
+    "Header - Lien Etre rappele - Espace Rappele": "//span[@class='audi-button__text'][contains(.,'Être rappelé')]",
+    
+    "Page": "---------------------------------------------------------------------------------------------------------------",
+    "Page - Etre rappele par un conseiller - Espace Rappele": "//img[@src='https://chatbot-api-media.meetdeal.video/static/dock-audi/icon/calendar-events-small.svg']",
+    "Page - Ifram A la date de mon choix - Espace Rappele": ".iframe",
+    "Page - Immédiatement - Espace Rappele": "//label[contains(.,'Immédiatement')]",
+    "Page - Champ téléphone - Espace Rappele": "//input[contains(@class,'aui-textfield__input voxFormElement')]",
+    "Page - Date - Espace Rappele": "//input[contains(@id,'date')][@name='date']",
+    "Page - Definir date - Espace Rappele": "(//div[contains(.,'30')])[10]",
+    "Page - Etre Rappele(e) - Espace Rappele": "//*[@id='voxSubmitDisplayed']",
+    
+    "Footer": "--------------------------------------------------------------------------------------------------------------"
+}

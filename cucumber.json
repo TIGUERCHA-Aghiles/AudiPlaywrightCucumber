@@ -1,0 +1,22 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        
+        "paths": [
+            "src/test/features/webDesktop/accueil/Achat_voiture_haut_gamme.feature"
+        ],
+        "publishQuiet": true,
+        "dryRun": false,
+        "require": [
+            "src/test/steps/commun/*.js",
+            "src/hook/hook.js"
+        ],  
+
+        "format": [
+            "progress-bar",
+            "json:reporting/rapports/cucumber-reports.json"
+        ]
+    }  
+}
