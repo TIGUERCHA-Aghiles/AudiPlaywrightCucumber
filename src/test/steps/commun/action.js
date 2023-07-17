@@ -73,10 +73,10 @@ Given( /^Je selectionne "(.*)" dans le curseur "(.*)" dans l'iframe$/, {timeout:
     await SelectionnerCurseur(iframe, nombre, locateur);
 });
 
-Given(/^Je coche la case "(.*)"$/,async (locateur) =>  {
+Given(/^Je coche la case "(.*)"$/, {timeout: 25000}, async (locateur) =>  {
     await Cocher(page, locateur)
 });
 
-Given(/^Je coche la case "(.*)" dans l'iframe$/,async (locateur) =>  {
+Given(/^Je coche la case "(.*)" dans l'iframe$/, {timeout: 25000}, async (locateur) =>  {
     await Cocher(iframe, locateur)
 });
