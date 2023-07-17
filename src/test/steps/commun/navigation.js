@@ -17,10 +17,10 @@ Given(/^J'attend "(.*)" secondes$/, {timeout: 25000}, async (secondesAAttendre) 
     await AttendreSecondes(page, secondesAAttendre)
 });
 
-Given(/^Je fais defiler jusqu'a l'element "(.*)"$/, async (locateur) => {
+Given(/^Je fais defiler jusqu'a l'element "(.*)"$/, {timeout: 25000}, async (locateur) => {
     await DefilerJusquaElement(page, locateur);
 });
 
-Given(/^Je fais defiler jusqu'a l'element "(.*)" dans l'iframe$/, async (locateur) => {
+Given(/^Je fais defiler jusqu'a l'element "(.*)" dans l'iframe$/, {timeout: 25000}, async (locateur) => {
     await DefilerJusquaElement(iframe, locateur);
 });  
