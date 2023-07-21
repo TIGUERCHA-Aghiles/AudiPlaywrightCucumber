@@ -13,7 +13,7 @@ module.exports = async function accederIframe(page, locateur) {
     const aliasLocateur = String(locateur);
     locateur = GetLocateur(aliasLocateur);
 
-    let frames = page.frames()
+    //let frames = page.frames()
     //console.log(frames.length);
 
     //Accès à l'iframe

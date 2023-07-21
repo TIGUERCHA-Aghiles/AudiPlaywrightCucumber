@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "acheter-une-voiture-avec-le-critère-de-recherche-'haut-de-gamme';je-réserve-une-audi-haut-de-gamme-(audi-a6-allroad-quattro)",
+        "id": "accueil_login;accueil_login",
         "keyword": "Scenario",
         "line": 3,
-        "name": "je réserve une Audi Haut de gamme (Audi A6 allroad quattro)",
+        "name": "Accueil_login",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6224030299
+              "duration": 16782269999
             }
           },
           {
@@ -27,732 +27,444 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85020499
+              "duration": 60034899
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 5,
-            "name": "Je fais defiler jusqu'a l'element \"Page - Véhicules neufs - Page d'accueil\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 897623000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Je verifie que l'element \"Page - Véhicules neufs - Page d'accueil\" est affiche",
+            "name": "Je verifie que l'element \"Header - Menu - Page d'accueil\" est affiche",
             "match": {
               "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 10251599
+              "duration": 1849134100
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
-            "name": "Je clique sur \"Page - Véhicules neufs - Page d'accueil\"",
+            "line": 6,
+            "name": "Je clique sur \"Header - Menu - Page d'accueil\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 1607502500
+              "duration": 3387735799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Je verifie que l'element \"Header - Lien Votre Audi - Page d'accueil\" est affiche",
+            "match": {
+              "location": "src\\test\\steps\\commun\\verification.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374327799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Je clique sur \"Page - Réinitialiser tous les filtres - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Header - Lien Votre Audi - Page d'accueil\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 3664400500
+              "duration": 2080770599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Je clique sur \"Page - Equipement - Espace voiture Haut de Gamme\"",
+            "name": "Je verifie que l'element \"Header - Lien Espace Personnel myAudi - Page d'accueil\" est affiche",
             "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
+              "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1768663800
+              "duration": 119495999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "Je clique sur \"Page - Haut de gamme: Avus Extended - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Header - Lien Espace Personnel myAudi - Page d'accueil\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 3188490399
+              "duration": 2069012200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "Je verifie que l'element \"Page - Filtre Avus Extended - Espace voiture Haut de Gamme\" est affiche",
+            "name": "Je verifie que l'element \"Header - Lien Aller sur myAudi - Espace Personnel\" est affiche",
             "match": {
               "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 12711000
+              "duration": 1636807900
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "J'attend \"3\" secondes",
+            "name": "Je clique sur \"Header - Lien Aller sur myAudi - Espace Personnel\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:16"
+              "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 3014708300
+              "duration": 7560325799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "Je fais defiler jusqu'a l'element \"Page - Audi A6 allroad quattro - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:20"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 9160099,
-              "error_message": "Error: Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n    at defilerJusquaElement (C:\\Users\\ASUS\\OneDrive\\Bureau\\AudiPlaywrightCucumber\\src\\test\\support\\commun\\action\\defilerJusquaElement.js:15:15)\n    at World.<anonymous> (C:\\Users\\ASUS\\OneDrive\\Bureau\\AudiPlaywrightCucumber\\src\\test\\steps\\commun\\navigation.js:21:5)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "Je clique sur \"Page - Audi A6 allroad quattro - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Page - Cookies - Espace Personnel\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7127146499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Je clique sur \"Page - Bouton poursuivre vers myAudi - Espace Personnel\"",
+            "match": {
+              "location": "src\\test\\steps\\commun\\action.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2387795600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "Je verifie que \"Page - Audi A6 allroad quattro - Espace voiture Haut de Gamme\" affiche le texte \"Audi A6 allroad quattro\"",
+            "name": "Je clique sur \"Page - Bouton c'est parti - Espace Personnel\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
+              "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7145372100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "Je verifie que l'element \"Page - Audi A6 allroad quattro - Espace voiture Haut de Gamme\" est affiche",
+            "name": "Je verifie que le titre de l'onglet est \"Bienvenue – Saisir e-mail\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
+              "location": "src\\test\\steps\\commun\\verification.js:31"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 727257500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 17,
-            "name": "Je verifie que le texte \"Page - Réservé votre Audi - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
+            "name": "Je saisis \"bastien.fuchs@outlook.fr\" dans le champ \"Page - Champ mail - Espace Personnel\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
+              "location": "src\\test\\steps\\commun\\action.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 860690400
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 18,
-            "name": "Je clique sur \"Page - Réservé votre Audi - Espace voiture Haut de Gamme\"",
+            "name": "Je verifie que l'element \"Page - Bouton suivant - Espace Personnel\" est affiche",
+            "match": {
+              "location": "src\\test\\steps\\commun\\verification.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24108199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Je clique sur \"Page - Bouton suivant - Espace Personnel\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1800091900
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "Je vais sur l'onglet \"1\"",
+            "keyword": "And ",
+            "line": 20,
+            "name": "Je saisis \"testGroupBA\" dans le champ \"Page - Champ password - Espace Personnel\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:8"
+              "location": "src\\test\\steps\\commun\\action.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 839840999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Je verifie que l'element \"Page - Bouton suivant - Espace Personnel\" est affiche",
+            "match": {
+              "location": "src\\test\\steps\\commun\\verification.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27799300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 22,
-            "name": "Je verifie que le titre de l'onglet est \"Réserver votre Audi!\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:31"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "Je clique sur \"Page - Refus cookies - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Page - Bouton suivant - Espace Personnel\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5844445500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "J'attend \"3\" secondes",
+            "match": {
+              "location": "src\\test\\steps\\commun\\navigation.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3013639200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 24,
-            "name": "Je verifie que l'element \"Page - Titre Formulaire (Contact) - Espace voiture Haut de Gamme\" est affiche",
+            "name": "Je verifie que le titre de l'onglet est \"myAudi – Bienvenue\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
+              "location": "src\\test\\steps\\commun\\verification.js:31"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 769727100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 25,
-            "name": "Je verifie que \"Page - Titre Formulaire (Contact) - Espace voiture Haut de Gamme\" affiche le texte \"Contact\"",
+            "name": "Je verifie que l'element \"Page - Bouton Mon nom\" est affiche",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
+              "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 736771099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 26,
-            "name": "Je verifie que le texte \"Page - Titre Formulaire (Contact) - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
+            "name": "Je verifie que \"Page - Bouton Mon nom\" affiche le texte \"Bastien\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
+              "location": "src\\test\\steps\\commun\\verification.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3069337699
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 27,
-            "name": "Je saisis \"Daniel\" dans le champ \"Page - Prenom - Espace voiture Haut de Gamme\"",
+            "name": "Je verifie que le texte \"Page - Bouton Mon nom\" est de couleur \"Noir\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
+              "location": "src\\test\\steps\\commun\\verification.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 915275399
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 28,
-            "name": "Je saisis \"JACK\" dans le champ \"Page - Nom - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Page - Bouton Mon nom\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
+              "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1600077099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 29,
-            "name": "Je saisis \"alt.em-bovhbcad@yopmail.com\" dans le champ \"Page - Adresse email - Espace voiture Haut de Gamme\"",
+            "name": "Je verifie que l'element \"Page - Bouton Configurations enregistrées\" est affiche",
             "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
+              "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 35023499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 30,
-            "name": "Je saisis \"0190906611\" dans le champ \"Page - Numero de telephone mobile - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 31,
-            "name": "Je clique sur \"Page - Suivant adresse - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Page - Bouton Configurations enregistrées\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1708366300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "J'attend \"3\" secondes",
+            "match": {
+              "location": "src\\test\\steps\\commun\\navigation.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3012890500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Je verifie que l'element \"Page - Bouton Mon nom\" est affiche",
+            "match": {
+              "location": "src\\test\\steps\\commun\\verification.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15540899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Je verifie que \"Page - Bouton Mon nom\" affiche le texte \"Bastien\"",
+            "match": {
+              "location": "src\\test\\steps\\commun\\verification.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12646099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 34,
-            "name": "Je verifie que l'element \"Page - Titre Formulaire (Adresse) - Espace voiture Haut de Gamme\" est affiche",
+            "name": "Je verifie que le texte \"Page - Bouton Mon nom\" est de couleur \"Noir\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
+              "location": "src\\test\\steps\\commun\\verification.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 21256400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 35,
-            "name": "Je verifie que \"Page - Titre Formulaire (Adresse) - Espace voiture Haut de Gamme\" affiche le texte \"Adresse\"",
+            "name": "Je clique sur \"Page - Bouton Mon nom\"",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
+              "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1472689800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 36,
-            "name": "Je verifie que le texte \"Page - Titre Formulaire (Adresse) - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
+            "name": "Je verifie que l'element \"Page - Bouton Se deconnecter\" est affiche",
             "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
+              "location": "src\\test\\steps\\commun\\verification.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 14312599
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 37,
-            "name": "Je saisis \"33 rue Sibuet\" dans le champ \"Page - Numero de la rue et rue - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 38,
-            "name": "Je saisis \"Paris\" dans le champ \"Page - Ville - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 39,
-            "name": "Je saisis \"75012\" dans le champ \"Page - Code postale - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 40,
-            "name": "Je clique sur \"Page - Suivant Services additionnels - Espace voiture Haut de Gamme\"",
+            "name": "Je clique sur \"Page - Bouton Se deconnecter\"",
             "match": {
               "location": "src\\test\\steps\\commun\\action.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 43,
-            "name": "Je verifie que l'element \"Page - Titre Formulaire (Services additionnels) - Espace voiture Haut de Gamme\" est affiche",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 44,
-            "name": "Je verifie que \"Page - Titre Formulaire (Services additionnels) - Espace voiture Haut de Gamme\" affiche le texte \"Services additionnels\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 45,
-            "name": "Je verifie que le texte \"Page - Titre Formulaire (Services additionnels) - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 46,
-            "name": "Je clique sur \"Page - Livraison à domicile - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 47,
-            "name": "Je clique sur \"Page - Suivant Commande - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 50,
-            "name": "Je verifie que l'element \"Page - Titre Formulaire (Commande) - Espace voiture Haut de Gamme\" est affiche",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 51,
-            "name": "Je verifie que \"Page - Titre Formulaire (Commande) - Espace voiture Haut de Gamme\" affiche le texte \"Commande\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 52,
-            "name": "Je verifie que le texte \"Page - Titre Formulaire (Commande) - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 53,
-            "name": "Je clique sur \"Page - Je confirme avoir lu et accepté les Conditions Générales de Réservation - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 54,
-            "name": "Je clique sur \"Page - Proceder au paiement - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 57,
-            "name": "Je verifie que le titre de l'onglet est \"Réserver votre Audi!\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:31"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 58,
-            "name": "Je clique sur \"Page - Fermer Annonce - Page offres du moments\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:40"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 59,
-            "name": "Je bascule vers l'iframe \"Page - Iframe Card Number - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:12"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 60,
-            "name": "Je saisis \"0605 1761 7548 0125\" dans le champ \"Page - Card Number - Espace voiture Haut de Gamme\" dans l'iframe",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:60"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 61,
-            "name": "Je saisis \"02/25\" dans le champ \"Page - Expiry Date - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 62,
-            "name": "Je saisis \"JACK Daniel\" dans le champ \"Page - Card holder - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:56"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 63,
-            "name": "Je bascule vers l'iframe \"Page - Iframe CVV - Espace voiture Haut de Gamme\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\navigation.js:12"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 64,
-            "name": "Je saisis \"640\" dans le champ \"Page - CVV - Espace voiture Haut de Gamme\" dans l'iframe",
-            "match": {
-              "location": "src\\test\\steps\\commun\\action.js:60"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 65,
-            "name": "Je verifie que l'element \"Page - Titre Formulaire (Paiement) - Espace voiture Haut de Gamme\" est affiche",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 66,
-            "name": "Je verifie que \"Page - Titre Formulaire (Paiement) - Espace voiture Haut de Gamme\" affiche le texte \"Paiement\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 67,
-            "name": "Je verifie que le texte \"Page - Titre Formulaire (Paiement) - Espace voiture Haut de Gamme\" est de couleur \"Noir\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 68,
-            "name": "Je verifie que le texte \"Page - Demande de reservation avec empreinte bancaire - Espace voiture Haut de Gamme\" est de couleur \"Blanc\"",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:23"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 69,
-            "name": "Je verifie que l'element \"Page - Demande de reservation avec empreinte bancaire - Espace voiture Haut de Gamme\" est affiche",
-            "match": {
-              "location": "src\\test\\steps\\commun\\verification.js:15"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4351831199
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 1384200,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at World.<anonymous> (C:\\Users\\ASUS\\OneDrive\\Bureau\\AudiPlaywrightCucumber\\src\\hook\\hook.js:21:28)"
+              "status": "passed",
+              "duration": 963153000
             }
           }
         ],
@@ -760,11 +472,11 @@
         "type": "scenario"
       }
     ],
-    "id": "acheter-une-voiture-avec-le-critère-de-recherche-'haut-de-gamme'",
+    "id": "accueil_login",
     "line": 1,
     "keyword": "Feature",
-    "name": "Acheter une voiture avec le critère de recherche 'Haut de gamme'",
+    "name": "Accueil_login",
     "tags": [],
-    "uri": "src\\test\\features\\webDesktop\\accueil\\Achat_voiture_haut_gamme.feature"
+    "uri": "src\\test\\features\\webDesktop\\accueil\\Accueil_login.feature"
   }
 ]
