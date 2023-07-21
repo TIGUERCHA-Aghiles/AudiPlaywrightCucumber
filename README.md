@@ -16,7 +16,7 @@ Pour installer nodeJS sans droits d'admin : https://theshravan.net/blog/how-to-u
 
 1. Récupérer le projet :
 
-https://github.com/FuchsBastien/AudiPlaywrightCucumber.git
+https://github.com/TIGUERCHA-Aghiles/AudiPlaywrightCucumber.git
 
 2. Ouvrir le projet avec Visual Studio (ou autre IDE)
 
