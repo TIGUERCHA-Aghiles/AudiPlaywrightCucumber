@@ -5,7 +5,7 @@
         },
         
         "paths": [
-            "src/test/features/webDesktop/accueil/Achat_voiture_haut_gamme.feature"
+            "src/test/features/webDesktop/accueil/Accueil_login.feature"
         ],
         "publishQuiet": true,
         "dryRun": false,
